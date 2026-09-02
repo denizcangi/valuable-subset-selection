@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Spark leftovers
+spark-warehouse/
+metastore_db/
+derby.log
+.spark_out_*/
+
+# Generated artefacts — regenerate with the CLIs rather than committing them
+data/*.csv
+queries/*.csv
+results/*
+!data/.gitkeep
+!queries/.gitkeep
+!results/.gitkeep
+
+.DS_Store
